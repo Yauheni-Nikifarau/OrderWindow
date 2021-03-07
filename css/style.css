@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input, button, select, fieldset {
+    border: none;
+    display: block;
+}
+
+input:focus, input:active, button:focus, button:active, select:focus, select:active {
+    outline: none;
+}
+
+.element {
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(223, 213, 213);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.field {
+    padding: 10px;
+}
+
+label, legend {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+legend {
+    text-align: center;
+}
+
+input, select {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+input {
+    width: 80%;
+}
+
+
+.title {
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(139, 47, 47);
+    color: aliceblue;
+}
+
+.error-input {
+    background-color: rgba(253, 0, 0, 0.4);
+}
+
+.error-description {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+fieldset input {
+    display: none;
+}
+
+fieldset input:checked + label {
+    background-color: rgb(29, 28, 28);
+    color: #fff;
+}
+
+fieldset label {
+    display: inline-block;
+    padding: 3px;
+    border-radius: 2px;
+    margin: 3px 10px;
+    font-size: 20px;
+}
+
+fieldset label:hover {
+    cursor: pointer;
+}
+
+.like_a_button {
+    display: inline-block;
+    text-decoration: none;
+}
+
+button, .like_a_button {
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: rgb(139, 47, 47);
+    color: rgb(223, 213, 213);
+}
+
+.thanks {
+    text-align: center;
+}
+
+.thanks h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.thanks p {
+    margin: 15px 0;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.hidden {
+    display: none;
+}
